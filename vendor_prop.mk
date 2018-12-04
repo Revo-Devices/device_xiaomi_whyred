@@ -331,3 +331,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=420
+
+#Gcam
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=1 \
+    persist.camera.eis.enable=1 \
+    persist.camera.is_type=5 \
+    persist.camera.is_mode=5 \
+    camera.hal1.packagelist=com.whatsapp
