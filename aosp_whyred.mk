@@ -47,4 +47,4 @@ BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIF
 
 TARGET_VENDOR := Xiaomi
 
-export CUSTOM_BUILD_TYPE=Official
+export CUSTOM_BUILD_TYPE=Beta
