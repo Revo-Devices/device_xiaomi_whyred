@@ -10,6 +10,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heaptargetutilization=0.75 \
     dalvik.vm.heapminfree=512k \
     dalvik.vm.heapmaxfree=8m \
+    video.disable.ubwc=1 \
     vendor.video.disable.ubwc=1 \
     persist.radio.multisim.config=dsds \
     persist.vendor.qcomsysd.enabled=1 \
@@ -345,7 +346,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #Density
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=450
+    ro.sf.lcd_density=440
 
 #Gcam
 PRODUCT_PROPERTY_OVERRIDES += \
