@@ -671,4 +671,13 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <fqname>@1.0::IDSManager/wifidisplaydshal</fqname>
         <fqname>@1.0::IHDCPSession/wifidisplayhdcphal</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.mlipay</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IMlipayService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </manifest>
